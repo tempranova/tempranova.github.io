@@ -5,7 +5,7 @@
   inset: 0;
   background:
     linear-gradient(135deg, white 0%, transparent 60%),  /* diagonal fade */
-    url('img/bg-test-2.png') center/cover no-repeat;
+    url('/img/bg-test-2.png') center/cover no-repeat;
   z-index: -1;   /* stays behind content */
 }
 
