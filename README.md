@@ -1,16 +1,3 @@
-Stuff to do:
-- Big dump of everything I should put on here
-- Organizing into some sections 
+npx push-dir --dir=dist --branch=gh-pages
 
-
-Stuff:
-- Websites and apps
-- Consulting work
-- Buddhist studies
-- Erasmus fellow
-- Keynote at Michigan, talk at UBC, wasn't there another too?
-- Talks in the media
-- Youtube top videos and views (in writing section)
-- Upcoming talks at conferences
-- Workshop in cyprus, italy
-- 
+this builds because it pushes the dist to a github branch separate for it for deployment.
