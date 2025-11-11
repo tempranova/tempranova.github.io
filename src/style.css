@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.fixed-bg {
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(135deg, white 0%, transparent 60%),  /* diagonal fade */
+    url('img/bg-test-2.png') center/cover no-repeat;
+  z-index: -1;   /* stays behind content */
+}
+
+.rubik-pixels-regular {
+  font-family: "Rubik Pixels", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.im-fell-dw-pica-regular {
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.im-fell-dw-pica-regular-italic {
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fraunces-font {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.lora-400 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Tailwind fade helpers */
+/* .fade {
+  @apply opacity-0 transition-opacity duration-1000;
+}
+.fade.show {
+  @apply opacity-100 transition-opacity duration-1000;
+} */
